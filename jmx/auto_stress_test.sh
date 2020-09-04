@@ -31,6 +31,7 @@ do
     else
         sed -i "s/thread_num/${num}/g" ${jmx_filename}
     fi
+    echo "根据操作系统，生成jmx压测脚本  ${jmx_filename}"
 
     # JMeter 静默压测
 
